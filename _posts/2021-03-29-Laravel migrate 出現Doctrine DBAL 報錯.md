@@ -1,6 +1,6 @@
 ---
 title: Laravel migrate 出現 Doctrine DBAL 報錯
-date: 2022-03-29
+date: 2021-03-29
 categories:
 - laravel
 - error
@@ -14,7 +14,7 @@ tags:
 ###### tags:  `laravel` `error`    
 
 
-執行php artisan migrate 顯示下方錯誤
+執行php artisan migrate 顯示下方錯誤 
 
 ```
 requires Doctrine DBAL. Please install the doctrine/dbal package
@@ -42,5 +42,6 @@ step 2. 修改完執行
 composer update
 ```
 
-最後執行 php artisan migrate，
+最後執行 php artisan migrate
+
 執行成功
