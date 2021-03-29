@@ -1,6 +1,6 @@
 ---
 title: Laravel migrate 出現 Doctrine DBAL 報錯
-date: 2022-03-029
+date: 2022-03-29
 categories:
 - laravel
 - error
@@ -14,19 +14,19 @@ tags:
 ###### tags:  `laravel` `error`    
 
 
-執行php artisan migrate 出現下方錯誤
+執行php artisan migrate 顯示下方錯誤
 
 ```
 requires Doctrine DBAL. Please install the doctrine/dbal package
 ```
 
-需安裝套套件doctrine/dbal
+錯誤顯示需安裝套套件doctrine/dbal
 
 ```
 composer require doctrine/dbal
 ```
 
-再次執行php artisan migrate 出現下方錯誤
+再次執行php artisan migrate 顯示下方錯誤
 
 ```
  Class 'Doctrine\DBAL\Driver\PDOMySql\Driver' not found
